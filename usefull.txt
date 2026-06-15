@@ -1,0 +1,13 @@
+yay -S fish
+curl -sS https://starship.rs/install.sh | sh
+starship init fish | source
+yay -S awww
+yay -S swaync
+sudo pacman -S pipewire pipewire-pulse wireplumber pavucontrol
+sudo pacman -S sassc gnome-themes-extra
+yay -S gtk-engine-murrine
+sudo pacman -S nautilus
+
+links 
+
+https://easings.net/
