@@ -1,13 +1,37 @@
+- links - 
+
+https://github.com/jguer/yay
+https://wiki.hypr.land/
+https://github.com/Alexays/Waybar/wiki
+https://easings.net/
+
+
+-----------------------------------------
+- pacman -
+
+sudo pacman -S pipewire pipewire-pulse wireplumber pavucontrol
+sudo pacman -S thunar 
+sudo pacman -S python-pipx
+sudo pacman -S gcc
+sudo pacman -S base-devel
+
+-----------------------------------------
+- yay - 
+
 yay -S fish
-curl -sS https://starship.rs/install.sh | sh
-starship init fish | source
 yay -S awww
 yay -S swaync
-sudo pacman -S pipewire pipewire-pulse wireplumber pavucontrol
-sudo pacman -S sassc gnome-themes-extra
-yay -S gtk-engine-murrine
-sudo pacman -S nautilus
 
-links 
+-----------------------------------------
+- pipx -
 
-https://easings.net/
+pipx ensurepath
+pipx install norminette
+
+-----------------------------------------
+- other -
+
+
+curl -sS https://starship.rs/install.sh | sh
+                            starship init fish | source
+-----------------------------------------
