@@ -109,6 +109,7 @@ updatezshdotfile() {
     git commit -m "Update zsh configuration"
     git push
 
+    clear
     cd ~42sp
 }
 
