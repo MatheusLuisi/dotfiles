@@ -108,6 +108,8 @@ updatezshdotfile() {
     git add .zshrc
     git commit -m "Update zsh configuration"
     git push
+
+    cd 42
 }
 
 
